@@ -5,7 +5,7 @@ import '../styles/Input.css'
 // Input 
 export default (props) => {
 
-    const [valor, setValor] = useState('Digite o valor') // Arrumar 
+    const [valor, setValor] = useState() 
 
     // Alterando o valor do Input
     function setInput(e){
@@ -13,7 +13,7 @@ export default (props) => {
     }
     return(
         <div className="input"> 
-            <input value={valor} onChange={setInput} type="text"></input>
+            <input value={valor} onChange={setInput} type={props.type} placeholder={props. placeholder}></input>
         </div>
     )
 }

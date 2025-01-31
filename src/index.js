@@ -23,7 +23,9 @@ root.render(
       <Button button='Listar'/>
 
       {/* Input */}
-      <Input/>
+      <Input placeholder ='Digite um valor' type='text'/>
+      <Input type='date'/>
+      <Input placeholder ='Digite um numero' type='number'/>
 
       {/* Seleção */}
       <Select value='Turno 1'/>
