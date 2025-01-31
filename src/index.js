@@ -1,17 +1,33 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+// Importando os componentes
+import Title from './components/Title'
+import Caption from './components/Caption'
+import Button from './components/Button'
+import Input from './components/Input';
+import Select from './components/Select';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+    <div className='body'>
+      {/* título */}
+      <Title title='Usuário'/>
+
+      {/* Subtítulo */}
+      <Caption caption='Serviços'/>
+
+      {/* Botão */}
+      <Button button='Listar'/>
+
+      {/* Input */}
+      <Input/>
+
+      {/* Seleção */}
+      <Select value='Turno 1'/>
+    </div>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
