@@ -12,7 +12,7 @@ export default (props) => {
         setValor(e.target.value)
     }
     return(
-        <div className="input"> 
+        <div > 
             <input value={valor} onChange={setInput} type={props.type} placeholder={props. placeholder}></input>
         </div>
     )

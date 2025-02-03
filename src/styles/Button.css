@@ -1,4 +1,4 @@
-.button button{
+button{
     background-color: #a6ce39;
     border: none;
     width: 75px;
@@ -7,6 +7,6 @@
     font-size: 15px;
 }
 
-.button button:hover{
-    background-color: #8db421;
+button:hover{
+    background-color: #a6dd0f;
 }
