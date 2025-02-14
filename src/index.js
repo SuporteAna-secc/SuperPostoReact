@@ -4,18 +4,14 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 
 // Importando os componentes
-import Modal from './components/Modal';
+import HomePage from './pages/Main/HomePage'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <div className='body'>
 
-      {/* Modal */}
-      <Modal
-      title='Convênios'
-      type='text'
-      button='Salvar'
-      /> 
+      {/* Página inicial */}
+      <HomePage/>
 
     </div>
 );

@@ -1,0 +1,7 @@
+.Services{
+    display: flex;
+    flex-grow: 1;
+    padding: 30px;
+    background-color: #9C9C9C;
+    color: white;
+}
