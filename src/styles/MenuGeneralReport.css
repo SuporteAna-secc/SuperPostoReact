@@ -1,0 +1,13 @@
+.menu{
+    list-style: none;
+    float: left;
+    background-color: #636466;
+    height: 80px;
+}
+.menu li{
+    position: relative;
+    float: left;
+    padding-inline: 98.4px;
+    padding-top: 25px;
+    color: white;
+}

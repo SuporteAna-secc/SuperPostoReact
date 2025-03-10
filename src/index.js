@@ -4,14 +4,13 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 
 // Importando os componentes
-import HomePage from './pages/Main/HomePage'
+import GeneralReport from './pages/GeneralReport';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <div className='body'>
 
-      {/* Página inicial */}
-      <HomePage/>
+      <GeneralReport/>
 
     </div>
 );
