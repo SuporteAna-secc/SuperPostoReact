@@ -5,7 +5,7 @@ import '../styles/MenuHomePage.css'
 import perfil from '../assets/perfil-de-usuário-64.png'
 import exit from '../assets/setas-flechas.png'
 
-// Menu da Página incial 
+// Menu da Página incial (Menu vertical)
 export default (props) =>{
     return(
         <aside className="Menu">

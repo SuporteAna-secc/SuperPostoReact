@@ -15,11 +15,13 @@ export default (props) => {
         <div>
             <nav>
                 <ul>
-                    <li><Title title="Relatorio Geral"/> </li>
-                    {/* Tentar uma lista */}
-                    <li><Label text="Turno: " /><Input/></li>
-                    <li><Label text="Data: "/><Input/></li>
-                    <li><InputCheckbox/><Label text="Refaz Encerrantes"/></li>
+                    <li className="title"><Title title="Relatorio Geral"/> </li>
+                    <li className="label" ><Label text="Turno:"/></li>
+                    <li><Input type='text'/></li>
+                    <li className="label" ><Label text="Data:"/></li>
+                    <li><Input type="date" /></li>
+                    <li className="checkbox"><InputCheckbox/></li>
+                    <li className="encerra"><Label text="Refaz Encerrantes"/></li>
                     <li><Button button="Listar"/></li>
                 </ul>
             </nav>
